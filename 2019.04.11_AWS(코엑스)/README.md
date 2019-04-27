@@ -17,14 +17,14 @@
   : 8개 gpu + 32gbyte  
 - tensor core > 16float 변환사용 (학습성능 2~3배 향상가능)  
   : 32>16 변환작업 코딩에 필요
-- **horovod**
-  : 딥러닝 플랫폼 분산학습지원, 학습시간단축!, 오픈소스
-- hyper parameter 최적처리 계산
-  : **aws sagemaker HPO**
-- AWS NEO
-  : 배포최적화를 위한 컴파일러 제공?
-- AWS ML 사이트
-  : ml.aws.com
+- **horovod**  
+  : 딥러닝 플랫폼 분산학습지원, 학습시간단축!, 오픈소스  
+- hyper parameter 최적처리 계산  
+  : **aws sagemaker HPO**  
+- AWS NEO  
+  : 배포최적화를 위한 컴파일러 제공?  
+- AWS ML 사이트  
+  : ml.aws.com  
  <br>
    
  3. AWS MSA
