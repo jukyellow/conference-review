@@ -9,25 +9,39 @@
 ### 내가 들었던 세션 요약:
 
 트랙1_1. beyond kubernetes ( Istio, spinnaker, knative,kubeflow ) - 조대협 ( Google )    
+ - MSA
  1) MSA : 조직문화 선행되어야 함(기획,디자인,개발,운영,인프라 하나의 팀으로 구성)  
  2) MSA가 맞지 않는 프로젝트: SI(개발후 개발자가 떠남), 대형 Enterprise Proj
- 3) MSA 패턴(MEAP 책 참고)
-
+ 3) MSA 패턴(**MEAP** 책 참고)  
+  : MSA -> Circuit Breaker(장애확산 차단기, app 레벨) -> **Envoy Proxy** (인프라 레벨)  
+    -> Istio (라우팅 특화, 통신간 서비스 암호화, 가시화 모니터링 tool 제공 등)  
+ 4) DevOps 팀: Self service Platform 개발을 하는 경우가 많음?  
+ - 쿠버네티스  
+ 1) Pods: 컨테이너간 Data공유, Side-Car패턴(Istio)
+ 2) 피닉스 서버 배포(Immutable) -> 스핀네이커(Pipeline구성)    
+ 3) 모니터링 : 구글 **StackDriver** 출시  
+  > StackDriver logging 기능 우수: 프로메테네우스 내장? ELK에서 구현하는 복잡함등을 해결하는 대안으로 좋을듯..  
+  > StackDriver: Dependency관리(가시화 추적도구 제공), err관리, 추적등 다양한 대시보드 제공(집킨등을 직접 설치 사용하는건 설정할것들이 넘 많음?)  - **Knative**  
+ 1) 현재 1.0 버전까지 올라오진 못함(빌드, 배포까지는 쓸만함, Event는 아직 사용하면 안됨)  
+ 2) Kubeflow: 머신러닝 엔진  
+ 3) Anthos : On-Premiss환경에 구글 쿠버네티스 설치 및 사용(VPN을 열어야하는등 장단점있음, 쿠버네티스 관리를 구글에서..)  
+<br>
 
 트랙1_2. Knative로 서버리스 워크로드 구현 - 김진웅 ( SK주식회사 C&C )  
-
+<br>
 
 
 트랙2_3. 효율적으로 ML model을 서비스화 해보자 - 오지연 ( 넷마블 )  
-
+<br>
 
 
 트랙1_4. Embulk와 GCP Bigquery를 통한 ETL 맛보기 - 김종건 ( GDG Cloud Korea Organizer )  
-
+<br>
 
 
 트랙1_5. Kubernetes와 Docker를 활용한 BaaS 구성기 - 김선종 ( 아티프렌즈 )  
-
+<br>
 
 
 트랙1_6. BQ ML 캐슬 - 이용운  
+<br>
