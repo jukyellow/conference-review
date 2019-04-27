@@ -60,12 +60,23 @@
 
 
 트랙1_4. Embulk와 GCP Bigquery를 통한 ETL 맛보기 - 김종건 ( GDG Cloud Korea Organizer )  
+ 1) 대용량/멀티포맷 파일 로더, 추측(파일분석) 기능 제공  
+ 2) 파일->(in)->Embuld->(out)->GCP로 DB로딩, GCP->Embulk->타 DB로 전환도 가능  
 <br>
 
 
 트랙1_5. Kubernetes와 Docker를 활용한 BaaS 구성기 - 김선종 ( 아티프렌즈 )  
+1) Baas: 블록체인 as a Service  
+2) 시행착오: Docker compose와 쿠버네티스 compose의 구성이 다름(쿠버네티스용으로 변환과정 필요)  
+3) MiniKube로 로컬 설치 및 테스트진행  
 <br>
 
 
-트랙1_6. BQ ML 캐슬 - 이용운  
+**트랙1_6. BQ ML 캐슬 - 이용운**  
+1) **BigQuery ML** : GCP기반에서 쿼리Language로 머신러닝 모델학습 및 Prediction 가능  
+2) 2018.07 론칭? 및 2019년에 K-means모델 추가됨  
+3) 구글 테스트 data제공: Google Analysis Sample Data (2016/08/01~2017/08/01)  
+4) 시연  
+ 4-1) 구매예측  
+ 4-2) 유저 행동패턴 그룹핑  
 <br>
