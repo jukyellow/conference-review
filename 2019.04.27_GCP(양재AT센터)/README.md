@@ -2,6 +2,10 @@
 
 1. 기술트랙 목차: https://festa.io/events/256  
 
-2. 슬라이드(ppt형식) 상세내용 확인: https://www.slideshare.net/awskorea  
+2. facebook 그룹: https://www.facebook.com/groups/googlecloudkorea/
 
 <hr>
+
+- 내가 들었던 세션 요약:
+
+1. 
