@@ -21,7 +21,8 @@
  2) 피닉스 서버 배포(Immutable) -> 스핀네이커(Pipeline구성)    
  3) 모니터링 : 구글 **StackDriver** 출시  
   > StackDriver logging 기능 우수: 프로메테네우스 내장? ELK에서 구현하는 복잡함등을 해결하는 대안으로 좋을듯..  
-  > StackDriver: Dependency관리(가시화 추적도구 제공), err관리, 추적등 다양한 대시보드 제공(집킨등을 직접 설치 사용하는건 설정할것들이 넘 많음?)   - **Knative**  
+  > StackDriver: Dependency관리(가시화 추적도구 제공), err관리, 추적등 다양한 대시보드 제공(집킨등을 직접 설치 사용하는건 설정할것들이 넘 많음?)   
+ - **Knative**  
  1) 현재 1.0 버전까지 올라오진 못함(빌드, 배포까지는 쓸만함, Event는 아직 사용하면 안됨)  
  2) Kubeflow: 머신러닝 엔진  
  3) Anthos : On-Premiss환경에 구글 쿠버네티스 설치 및 사용(VPN을 열어야하는등 장단점있음, 쿠버네티스 관리를 구글에서..)  
