@@ -25,11 +25,15 @@
  - **Knative**  
  1) 현재 1.0 버전까지 올라오진 못함(빌드, 배포까지는 쓸만함, Event는 아직 사용하면 안됨)  
  2) Kubeflow: 머신러닝 엔진  
- 3) Anthos : On-Premiss환경에 구글 쿠버네티스 설치 및 사용(VPN을 열어야하는등 장단점있음, 쿠버네티스 관리를 구글에서..)  
+ 3) Anthos : On-Premiss환경에 구글 쿠버네티스 설치 및 사용(VPN을 열어야하는등 장단점있음, 쿠버네티스 관리를 구글에서..)   
+ - 발표자료공유(없음), 관련자료
+  > 스프링부트&집킨: https://bcho.tistory.com/1319?fbclid=IwAR2S3vo8OervzYGCjuWrpn_NQSjiXVr9fT6H24FtUTJUZBf9DVUTLGGG9wM  
+  > 스택드라이버: https://bcho.tistory.com/1321?fbclid=IwAR1HZiF03DVLDAzrv6tgCZcetdZWpBqvMKnfNEyQxTB37N95ggaS3TLKZPc  
+  > Knative Serving: https://bcho.tistory.com/1322?fbclid=IwAR0wdB3wdB3Xdg0BB_rHF32M-UGQE39FB-INOVeLT3JPhRuHVQ53afe0zGQ  
+  >  
 <br>
 
 트랙1_2. Knative로 서버리스 워크로드 구현 - 김진웅 ( SK주식회사 C&C )  
- > https://github.com/ddiiwoong
  - Serverless, Paas  
  1)Serverless 플랫폼 -> Knative  
  2)Pass : Function As a Service(AWS lamda등)  
@@ -38,6 +42,10 @@
  2) Cold Start문제(0.5~8초 사이 기동시간 존재): 해결방안-5분마다 한번씩 서비 호출하여 service 항상 On?모드로 있도록 함  
  3) Cloud Run On GKE: Seamless Knative  
  4) Knative Use-Case: https://github.com/steren  
+ - 발표자료/github
+ > 김지웅님 github: https://github.com/ddiiwoong
+ > 발표 슬라이드: https://www.slideshare.net/JinwoongKim8/knative?fbclid=IwAR0neUraM7qp9Jf81G-6yAv9Gn6AiaLk5dh4QYK615ULluzMtEl7_d2iqkY
+
 <br>
 
 
@@ -81,3 +89,15 @@
  4-1) 구매예측  
  4-2) 유저 행동패턴 그룹핑  
 <br>
+
+** 좌충우돌 CLOUD 학습기(이동민)
+ - Google Cloud Certified Associate Cloud Engineer 취득기(8주학습)  
+ > 직접듣지는 못함  
+ > 슬라이드 공유: https://www.slideshare.net/DONGMINLEE15/cloud-137939221?next_slideshow=1  
+<br>
+<br>
+
+### 다음 행사 안내  
+- https://festa.io/events/272?fbclid=IwAR2N_Rdq3JuZb-kXO2s4Q5HztYMWZQpcZpzWehGC31EK534cXVmO-98_zec  
+ > 관심세션: 쿠버네팃 On-premise 인프라 운영기  
+   
