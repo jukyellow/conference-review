@@ -42,10 +42,9 @@
  2) Cold Start문제(0.5~8초 사이 기동시간 존재): 해결방안-5분마다 한번씩 서비 호출하여 service 항상 On?모드로 있도록 함  
  3) Cloud Run On GKE: Seamless Knative  
  4) Knative Use-Case: https://github.com/steren  
- - 발표자료/github
- > 김지웅님 github: https://github.com/ddiiwoong
- > 발표 슬라이드: https://www.slideshare.net/JinwoongKim8/knative?fbclid=IwAR0neUraM7qp9Jf81G-6yAv9Gn6AiaLk5dh4QYK615ULluzMtEl7_d2iqkY
-
+ - 발표자료/github  
+ > 김지웅님 github: https://github.com/ddiiwoong  
+ > 발표 슬라이드: https://www.slideshare.net/JinwoongKim8/knative?fbclid=IwAR0neUraM7qp9Jf81G-6yAv9Gn6AiaLk5dh4QYK615ULluzMtEl7_d2iqkY  
 <br>
 
 
@@ -90,7 +89,7 @@
  4-2) 유저 행동패턴 그룹핑  
 <br>
 
-** 좌충우돌 CLOUD 학습기(이동민)
+트랙_기타. 좌충우돌 CLOUD 학습기(이동민)
  - Google Cloud Certified Associate Cloud Engineer 취득기(8주학습)  
  > 직접듣지는 못함  
  > 슬라이드 공유: https://www.slideshare.net/DONGMINLEE15/cloud-137939221?next_slideshow=1  
@@ -99,5 +98,5 @@
 
 ### 다음 행사 안내  
 - https://festa.io/events/272?fbclid=IwAR2N_Rdq3JuZb-kXO2s4Q5HztYMWZQpcZpzWehGC31EK534cXVmO-98_zec  
- > 관심세션: 쿠버네팃 On-premise 인프라 운영기  
+ > 관심세션: 쿠버네티스 On-premise 인프라 운영기  
    
