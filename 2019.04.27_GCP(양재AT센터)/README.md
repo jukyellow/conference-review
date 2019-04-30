@@ -88,6 +88,7 @@
 4) 시연  
  4-1) 구매예측  
  4-2) 유저 행동패턴 그룹핑  
+ > 발표자료: https://docs.google.com/presentation/d/10jYewv5mRoKbfgmSCYTtdxuZmDkniCcwtq5vq8NMF6c/edit?fbclid=IwAR1hTzxiKLVCsdtJT8iqQu3HTKXO6TH_rD_t_FqDkiZDqmPLZhJfxhVajWE#slide=id.p
 <br>
 
 #### 트랙_기타. 좌충우돌 CLOUD 학습기(이동민)
