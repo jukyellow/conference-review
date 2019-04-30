@@ -8,7 +8,7 @@
 
 ### 내가 들었던 세션 요약:
 
-트랙1_1. beyond kubernetes ( Istio, spinnaker, knative,kubeflow ) - 조대협 ( Google )    
+#### 트랙1_1. beyond kubernetes ( Istio, spinnaker, knative,kubeflow ) - 조대협 ( Google )    
  - MSA
  1) MSA : 조직문화 선행되어야 함(기획,디자인,개발,운영,인프라 하나의 팀으로 구성)  
  2) MSA가 맞지 않는 프로젝트: SI(개발후 개발자가 떠남), 대형 Enterprise Proj
@@ -33,7 +33,7 @@
   >  
 <br>
 
-트랙1_2. Knative로 서버리스 워크로드 구현 - 김진웅 ( SK주식회사 C&C )  
+#### 트랙1_2. Knative로 서버리스 워크로드 구현 - 김진웅 ( SK주식회사 C&C )  
  - Serverless, Paas  
  1)Serverless 플랫폼 -> Knative  
  2)Pass : Function As a Service(AWS lamda등)  
@@ -48,7 +48,7 @@
 <br>
 
 
-**트랙2_3. 효율적으로 ML model을 서비스화 해보자 - 오지연 ( 넷마블 )** 
+#### **트랙2_3. 효율적으로 ML model을 서비스화 해보자 - 오지연 ( 넷마블 )** 
  > ML기반 버그유저? 탐지서비스 GCP기반 상용화 사례 발표 
  1) Idea: **Auto-Encoder**를 이용하여, 정상 사용자는 in/out이 거의 유사, 비정상 사용자는 in/out이 차이가 큰점을 활용  
  2) ML 모델 문제/개선  
@@ -67,20 +67,21 @@
 <br>
 
 
-트랙1_4. Embulk와 GCP Bigquery를 통한 ETL 맛보기 - 김종건 ( GDG Cloud Korea Organizer )  
+#### 트랙1_4. Embulk와 GCP Bigquery를 통한 ETL 맛보기 - 김종건 ( GDG Cloud Korea Organizer )  
  1) 대용량/멀티포맷 파일 로더, 추측(파일분석) 기능 제공  
  2) 파일->(in)->Embuld->(out)->GCP로 DB로딩, GCP->Embulk->타 DB로 전환도 가능  
 <br>
 
 
-트랙1_5. Kubernetes와 Docker를 활용한 BaaS 구성기 - 김선종 ( 아티프렌즈 )  
+#### 트랙1_5. Kubernetes와 Docker를 활용한 BaaS 구성기 - 김선종 ( 아티프렌즈 )  
 1) Baas: 블록체인 as a Service  
 2) 시행착오: Docker compose와 쿠버네티스 compose의 구성이 다름(쿠버네티스용으로 변환과정 필요)  
 3) MiniKube로 로컬 설치 및 테스트진행  
+> 발표자료: https://docs.google.com/presentation/d/10jYewv5mRoKbfgmSCYTtdxuZmDkniCcwtq5vq8NMF6c/edit?fbclid=IwAR1hTzxiKLVCsdtJT8iqQu3HTKXO6TH_rD_t_FqDkiZDqmPLZhJfxhVajWE#slide=id.p  
 <br>
 
 
-**트랙1_6. BQ ML 캐슬 - 이용운**  
+#### **트랙1_6. BQ ML 캐슬 - 이용운**  
 1) **BigQuery ML** : GCP기반에서 쿼리Language로 머신러닝 모델학습 및 Prediction 가능  
 2) 2018.07 론칭? 및 2019년에 K-means모델 추가됨  
 3) 구글 테스트 data제공: Google Analysis Sample Data (2016/08/01~2017/08/01)  
@@ -89,7 +90,7 @@
  4-2) 유저 행동패턴 그룹핑  
 <br>
 
-트랙_기타. 좌충우돌 CLOUD 학습기(이동민)
+#### 트랙_기타. 좌충우돌 CLOUD 학습기(이동민)
  - Google Cloud Certified Associate Cloud Engineer 취득기(8주학습)  
  > 직접듣지는 못함  
  > 슬라이드 공유: https://www.slideshare.net/DONGMINLEE15/cloud-137939221?next_slideshow=1  
