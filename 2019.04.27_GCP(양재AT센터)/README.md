@@ -70,6 +70,7 @@
 #### 트랙1_4. Embulk와 GCP Bigquery를 통한 ETL 맛보기 - 김종건 ( GDG Cloud Korea Organizer )  
  1) 대용량/멀티포맷 파일 로더, 추측(파일분석) 기능 제공  
  2) 파일->(in)->Embuld->(out)->GCP로 DB로딩, GCP->Embulk->타 DB로 전환도 가능  
+ > 발표자료 : https://drive.google.com/file/d/1TU-kloCMBImbawpHqVu1iY8HaeAVy9Ds/view?fbclid=IwAR0-Ti4WQqtnnT8KTbcap2fE0N9a2NuAOHwtkCvV6ZmRoJMWnbY3oNnMw6k  
 <br>
 
 
