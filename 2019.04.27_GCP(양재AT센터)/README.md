@@ -101,5 +101,6 @@
 
 ### 다음 행사 안내  
 - https://festa.io/events/272?fbclid=IwAR2N_Rdq3JuZb-kXO2s4Q5HztYMWZQpcZpzWehGC31EK534cXVmO-98_zec  
- > 관심세션: 쿠버네티스 On-premise 인프라 운영기  
-   
+ > 관심세션: 쿠버네티스 On-premise 인프라 운영기   
+ > 후기공유: https://blog.naver.com/PostView.nhn?blogId=alice_k106&logNo=221528338714&redirect=Dlog&widgetTypeCall=true&directAccess=false    
+ 
